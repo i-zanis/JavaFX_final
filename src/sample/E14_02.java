@@ -20,6 +20,7 @@ public class E14_02 extends Application {
                 int random = (int)(Math.random() * 3);
                 if (random != 2) {
                     String image = (random > 0) ? "/image/x.gif" : "/image/o.gif";
+
                     pane.add(new ImageView(new Image(image)), j, i);
                 }
             }
