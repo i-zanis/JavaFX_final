@@ -10,7 +10,6 @@ import javafx.stage.Stage;
 
 /**
  * Experimental attempt to create an American flag design with any type of character.
- * Last year I was overwhelmed by TKinter but this year I will try to make up.
  * Made on OpenJDK14.
  * VM options --module-path [%java path%] --add-modules javafx.controls,javafx.fxml
  * Thank you for reading.
@@ -28,7 +27,6 @@ public class PracticalActivity1_FX extends Application {
         primaryStage.setScene(scene); // Place the scene in the stage
         primaryStage.show(); // Display the stage(window)
         }
-
     /**
      * Creates a flag with two characters of your choice
      * The row size of the flag is 46.
