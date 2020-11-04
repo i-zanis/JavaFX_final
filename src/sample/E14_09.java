@@ -19,7 +19,6 @@ public class E14_09 extends Application {
         int y = RADIUS + GAP;
 
         for (int i = 0; i < 2; i++) {
-
             // drawing a 2 Circles in each row
             for (int j = 0; j < 2; j++) {
                 // create circle
